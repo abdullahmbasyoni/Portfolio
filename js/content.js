@@ -81,7 +81,8 @@ window.CONTENT = {
   hometease: {
     eyebrow_en:"Who's behind this", eyebrow_ar:"مين ورا ده",
     body_en:"I'm Abdullah Basyoni — I help brands move from chaos to clarity: in who they are, their message, and their place in the market.",
-    body_ar:"أنا عبدالله بسيوني، بساعد البراندات تنتقل من التشتت للوضوح — في نفسها، ورسالتها، ومكانها في السوق.",
+    body_ar:"أنا عبدالله بسيوني، بدأت كاتب محتوى وكبرت لحد ما بقيت مسوّق متخصص في السوشيال ميديا والمحتوى. على مدى أكتر من 4 سنين اشتغلت مع براندات في مصر والسعودية والكويت ولبنان. شغلي ببساطة: أنقل البراند من إنه موجود وبس لإنه بيأثّر فعلًا — بمحتوى وكلام بيوصل للناس ويبني علاقة حقيقية. وبجمع بين الإبداع والتحليل، عشان القرارات تتبني على فهم مش على تخمين.
+.",
     cta_en:"More about me", cta_ar:"اعرف عني أكتر",
     photo:"assets/photo.jpg",
   },
