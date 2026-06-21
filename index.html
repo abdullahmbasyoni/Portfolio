@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abdullah Basyoni — From chaos to clarity</title>
+<meta name="description" content="Digital Marketing Specialist. Helping brands move from chaos to clarity — in who they are, what they say, and where they stand in the market." />
+<meta name="theme-color" content="#0a0f18" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Abdullah Basyoni — From chaos to clarity" />
+<meta property="og:description" content="Digital Marketing Specialist. Helping brands move from chaos to clarity — in who they are, what they say, and where they stand in the market." />
+<meta property="og:image" content="assets/logo-mark.png" />
+<link rel="preload" href="assets/fonts/GeneralSans-Bold.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body lang="en" dir="ltr" data-page="index.html">
+
+  <div id="pre">
+    <img id="preLogo" class="pl-logo" src="assets/logo-light.png" alt="" />
+    <div class="pl-bar"><i id="preBar"></i></div>
+    <div class="pl-tag">From chaos to clarity</div>
+  </div>
+
+  <div class="cursor-ring" id="cRing"></div>
+  <div class="cursor-dot" id="cDot"></div>
+
+  <nav id="nav">
+    <a class="brand" href="index.html" aria-label="home">
+      <img src="assets/logo-light.png" alt="" />
+      <span id="brandName">Abdullah Basyoni</span>
+    </a>
+    <div class="nav-links" id="navLinks"></div>
+    <div class="nav-side">
+      <button class="lang-toggle" id="langBtn" aria-label="Switch language"></button>
+      <a class="btn btn-primary hide-sm" id="navCta" href="contact.html">Let's talk</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </nav>
+  <span id="navRole" hidden></span>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close" id="closeMenu" aria-label="Close"><svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l14 14M20 6L6 20"/></svg></button>
+    <div id="mobileLinks" style="display:flex;flex-direction:column;align-items:center;gap:26px"></div>
+  </div>
+
+  <header class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="light-shaft"></div>
+    <div class="wrap hero-inner">
+      <span class="eyebrow" id="heroEyebrow"></span>
+      <h1 id="heroH1"></h1>
+      <p class="hero-sub" id="heroSub"></p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" id="heroCta1" href="contact.html"></a>
+        <a class="btn btn-ghost" id="heroCta2" href="work.html"></a>
+      </div>
+      <div class="slogan-mark"><span id="heroSlogan"></span><span class="ar-tag">حاول كمان مرة</span></div>
+    </div>
+    <div class="scrollcue"><span id="scrollCue"></span><i></i></div>
+  </header>
+
+  <div class="stats"><div class="wrap" id="statsWrap"></div></div>
+
+  <section class="svc-marquee-sec">
+    <div class="wrap-head reveal">
+      <span class="eyebrow" id="smEyebrow"></span>
+      <div class="sm-title" id="smTitle"></div>
+    </div>
+    <div class="svc-marquee" id="svcMarquee"></div>
+  </section>
+
+  <section class="home-tease">
+    <div class="wrap reveal">
+      <div class="tease-photo"><img src="assets/photo.jpg" alt="Abdullah Basyoni" /><div class="tease-name" id="teaseName"></div></div>
+      <div class="tease-body">
+        <span class="eyebrow" id="homeTeaseEyebrow"></span>
+        <p id="homeTeaseBody"></p>
+        <a class="btn btn-ghost" id="homeTeaseCta" href="about.html"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="home-cards" id="homeCards"></div>
+      <div class="home-band reveal">
+        <h3 id="homeCta"></h3>
+        <a class="btn btn-primary" id="homeCtaBtn" href="contact.html"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-brand"><img src="assets/logo-light.png" alt="" /><span id="footBrand">Abdullah Basyoni</span></div>
+      <div class="foot-meta" id="footMeta"></div>
+    </div>
+  </footer>
+
+  <div class="modal-back" id="modalBack">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l12 12M17 5L5 17"/></svg></button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
