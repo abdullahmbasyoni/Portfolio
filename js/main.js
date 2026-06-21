@@ -308,9 +308,9 @@ function renderServicesMarquee(){
   const offered=(tiers[0]&&tiers[0].groups)||[];
   const developing=(tiers[2]&&tiers[2].groups)||[];
   function pill(g){
-    const items=(lang==='ar'&&g.items_ar)?g.items_ar:(g.items_en||[]);
+    const items=(g.items_en||[]);
     const sub=items.slice(0,3).join(' · ');
-    return `<div class="sm-pill"><span class="sm-ic">${svcIcon(g.t_en)}</span><span class="sm-tx"><b>${L(g.t_en,g.t_ar)}</b>${sub?`<i>${sub}</i>`:''}</span></div>`;
+    return `<div class="sm-pill"><span class="sm-ic">${svcIcon(g.t_en)}</span><span class="sm-tx"><b>${g.t_en}</b>${sub?`<i>${sub}</i>`:''}</span></div>`;
   }
   const laneA=offered.map(pill).join(''), laneB=developing.map(pill).join('');
   wrap.innerHTML=`<div class="sm-lane">${laneA}${laneA}</div>`+(laneB?`<div class="sm-lane rev">${laneB}${laneB}</div>`:'');
