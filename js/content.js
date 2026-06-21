@@ -80,9 +80,8 @@ window.CONTENT = {
   /* نبذة تشويقية في الرئيسية (مع الصورة) */
   hometease: {
     eyebrow_en:"Who's behind this", eyebrow_ar:"مين ورا ده",
-    body_en:"I'm Abdullah Basyoni — I help brands move from chaos to clarity: in who they are, their message, and their place in the market.",
-    body_ar:"أنا عبدالله بسيوني، بدأت كاتب محتوى وكبرت لحد ما بقيت مسوّق متخصص في السوشيال ميديا والمحتوى. على مدى أكتر من 4 سنين اشتغلت مع براندات في مصر والسعودية والكويت ولبنان. شغلي ببساطة: أنقل البراند من إنه موجود وبس لإنه بيأثّر فعلًا — بمحتوى وكلام بيوصل للناس ويبني علاقة حقيقية. وبجمع بين الإبداع والتحليل، عشان القرارات تتبني على فهم مش على تخمين.
-.",
+    body_en:"I'm Abdullah Basyoni. I started as a content writer and grew into a marketer specialized in social media and content. Over 4+ years I've worked with brands across Egypt, Saudi Arabia, Kuwait, and Lebanon. What I do, simply: I take a brand from just being there to actually making an impact — through content and copy that reaches people and builds a real connection. I blend creativity with analysis, so decisions come from understanding, not guessing.",
+    body_ar:"أنا عبدالله بسيوني، بدأت كاتب محتوى وكبرت لحد ما بقيت مسوّق متخصص في السوشيال ميديا والمحتوى. على مدى أكتر من 4 سنين اشتغلت مع براندات في مصر والسعودية والكويت ولبنان. شغلي ببساطة: أنقل البراند من إنه موجود وبس لإنه بيأثّر فعلًا — بمحتوى وكلام بيوصل للناس ويبني علاقة حقيقية. وبجمع بين الإبداع والتحليل، عشان القرارات تتبني على فهم مش على تخمين.",
     cta_en:"More about me", cta_ar:"اعرف عني أكتر",
     photo:"assets/photo.jpg",
   },
